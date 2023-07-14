@@ -29,7 +29,6 @@ export default function EditPosition() {
 
 	const onChange = (evt) => {
 		const name = evt.target.name;
-		
 		setState(prevState => ({...prevState, [name]: evt.target.value}));
 	};
 
